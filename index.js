@@ -21,7 +21,7 @@ console.log (student.dateDeNaissance);
 function notes(matiere) {
     console.log (matiere);
     for (let i = 0; i < matiere.length; i++) {
-        console.log(matiere[i])
+        console.log(matiere[i]);
     }
 };
 
