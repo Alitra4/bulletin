@@ -19,10 +19,14 @@ console.log (student.prenom, student.nomDeFamille.toUpperCase());
 console.log (student.dateDeNaissance);
 
 function notes(matiere) {
-    console.log (matiere);
-    for (let i = 0; i < matiere.length; i++) {
-        console.log(matiere[i]);
-    }
+    console.log (matiere, student.notes[matiere]);
 };
 
-notes(student.notes.histoire);
+notes("histoire");
+notes("mathematiques");
+notes("anglais");
+notes("francais");
+notes("arts");
+notes("musique");
+notes("physique");
+notes("sport");
